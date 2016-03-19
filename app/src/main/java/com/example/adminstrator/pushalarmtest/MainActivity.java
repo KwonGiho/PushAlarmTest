@@ -36,6 +36,6 @@ public class MainActivity extends AppCompatActivity {
         calendar.set(2016,2,19,5,13,10);//이 부분만 수정해 주면 됨. 달 설정 할 시에는 3월일경우 -1 해서 2월을 작성할 것.
 
 
-        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),1000*60,sender);
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),1000*20,sender);
     }
 }
